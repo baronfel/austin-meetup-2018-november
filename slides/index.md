@@ -139,18 +139,11 @@ Use a paket header to make your scripts self-contained
 
 * Reference an existing paket.dependencies group
 
-```fsharp
-#r "paket: groupref FakeDeps //
-```
+![paket group refs](/images/paket_groupref_example.png)
 
 * Declare a set of dependencies inline
 
-```fsharp
-#r "paket:
-nuget Fake.Core.Target
-nuget Fake.BuildServer.GitLab //
-"
-```
+![paket inline refs](/images/paket_inline_example.png)
 
 ---
 
